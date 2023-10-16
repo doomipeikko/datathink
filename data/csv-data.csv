@@ -41,7 +41,7 @@ Atomic number,Element name,Symbol,Atomic weight,Phase
 40,Zr,Zirconium,91.224,solid
 41,Nb,Niobium,92.906,solid
 42,Mo,Molybdenum,95.95,solid
-43,Tc,Technetium,[97],solid
+43,Tc,Technetium,97,solid
 44,Ru,Ruthenium,101.07,solid
 45,Rh,Rhodium,102.91,solid
 46,Pd,Palladium,106.42,solid
@@ -59,7 +59,7 @@ Atomic number,Element name,Symbol,Atomic weight,Phase
 58,Ce,Cerium,140.12,solid
 59,Pr,Praseodymium,140.91,solid
 60,Nd,Neodymium,144.24,solid
-61,Pm,Promethium,[145],solid
+61,Pm,Promethium,145,solid
 62,Sm,Samarium,150.36,solid
 63,Eu,Europium,151.96,solid
 64,Gd,Gadolinium,157.25,solid
@@ -82,38 +82,38 @@ Atomic number,Element name,Symbol,Atomic weight,Phase
 81,Tl,Thallium,204.38,solid
 82,Pb,Lead,207.2,solid
 83,Bi,Bismuth,208.98,solid
-84,Po,Polonium,[209],solid
-85,At,Astatine,[210],unknown phase
-86,Rn,Radon,[222],gas
-87,Fr,Francium,[223],unknown phase
-88,Ra,Radium,[226],solid
-89,Ac,Actinium,[227],solid
+84,Po,Polonium,209,solid
+85,At,Astatine,210,unknown phase
+86,Rn,Radon,222,gas
+87,Fr,Francium,223,unknown phase
+88,Ra,Radium,226,solid
+89,Ac,Actinium,227,solid
 90,Th,Thorium,232.04,solid
 91,Pa,Protactinium,231.04,solid
 92,U,Uranium,238.03,solid
-93,Np,Neptunium,[237],solid
-94,Pu,Plutonium,[244],solid
-95,Am,Americium,[243],solid
-96,Cm,Curium,[247],solid
-97,Bk,Berkelium,[247],solid
-98,Cf,Californium,[251],solid
-99,Es,Einsteinium,[252],solid
-100,Fm,Fermium,[257],unknown phase
-101,Md,Mendelevium,[258],unknown phase
-102,No,Nobelium,[259],unknown phase
-103,Lr,Lawrencium,[266],unknown phase
-104,Rf,Rutherfordium,[267],unknown phase
-105,Db,Dubnium,[268],unknown phase
-106,Sg,Seaborgium,[269],unknown phase
-107,Bh,Bohrium,[270],unknown phase
-108,Hs,Hassium,[269],unknown phase
-109,Mt,Meitnerium,[278],unknown phase
-110,Ds,Darmstadtium,[281],unknown phase
-111,Rg,Roentgenium,[282],unknown phase
-112,Cn,Copernicium,[285],unknown phase
-113,Nh,Nihonium,[286],unknown phase
-114,Fl,Flerovium,[289],unknown phase
-115,Mc,Moscovium,[290],unknown phase
-116,Lv,Livermorium,[293],unknown phase
-117,Ts,Tennessine,[294],unknown phase
-118,Og,Oganesson,[294],unknown phase
+93,Np,Neptunium,237,solid
+94,Pu,Plutonium,244,solid
+95,Am,Americium,243,solid
+96,Cm,Curium,247,solid
+97,Bk,Berkelium,247,solid
+98,Cf,Californium,251,solid
+99,Es,Einsteinium,252,solid
+100,Fm,Fermium,257,unknown phase
+101,Md,Mendelevium,258,unknown phase
+102,No,Nobelium,259,unknown phase
+103,Lr,Lawrencium,266,unknown phase
+104,Rf,Rutherfordium,267,unknown phase
+105,Db,Dubnium,268,unknown phase
+106,Sg,Seaborgium,269,unknown phase
+107,Bh,Bohrium,270,unknown phase
+108,Hs,Hassium,269,unknown phase
+109,Mt,Meitnerium,278,unknown phase
+110,Ds,Darmstadtium,281,unknown phase
+111,Rg,Roentgenium,282,unknown phase
+112,Cn,Copernicium,285,unknown phase
+113,Nh,Nihonium,286,unknown phase
+114,Fl,Flerovium,289,unknown phase
+115,Mc,Moscovium,290,unknown phase
+116,Lv,Livermorium,293,unknown phase
+117,Ts,Tennessine,294,unknown phase
+118,Og,Oganesson,294,unknown phase
