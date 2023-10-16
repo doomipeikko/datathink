@@ -1,2 +1,119 @@
 Atomic number,Element name,Symbol,Atomic weight,Phase
 1,H,Hydrogen,1.008,gas
+2,He,Helium,4.0026,gas
+3,Li,Lithium,6.94,solid
+4,Be,Beryllium,9.0122,solid
+5,B,Boron,10.81,solid
+6,C,Carbon,12.011,solid
+7,N,Nitrogen,14.007,gas
+8,O,Oxygen,15.999,gas
+9,F,Fluorine,18.998,gas
+10,Ne,Neon,20.18,gas
+11,Na,Sodium,22.99,solid
+12,Mg,Magnesium,24.305,solid
+13,Al,Aluminium,26.982,solid
+14,Si,Silicon,28.085,solid
+15,P,Phosphorus,30.974,solid
+16,S,Sulfur,32.06,solid
+17,Cl,Chlorine,35.45,gas
+18,Ar,Argon,39.95,gas
+19,K,Potassium,39.098,solid
+20,Ca,Calcium,40.078,solid
+21,Sc,Scandium,44.956,solid
+22,Ti,Titanium,47.867,solid
+23,V,Vanadium,50.942,solid
+24,Cr,Chromium,51.996,solid
+25,Mn,Manganese,54.938,solid
+26,Fe,Iron,55.845,solid
+27,Co,Cobalt,58.933,solid
+28,Ni,Nickel,58.693,solid
+29,Cu,Copper,63.546,solid
+30,Zn,Zinc,65.38,solid
+31,Ga,Gallium,69.723,solid
+32,Ge,Germanium,72.63,solid
+33,As,Arsenic,74.922,solid
+34,Se,Selenium,78.971,solid
+35,Br,Bromine,79.904,liquid
+36,Kr,Krypton,83.798,gas
+37,Rb,Rubidium,85.468,solid
+38,Sr,Strontium,87.62,solid
+39,Y,Yttrium,88.906,solid
+40,Zr,Zirconium,91.224,solid
+41,Nb,Niobium,92.906,solid
+42,Mo,Molybdenum,95.95,solid
+43,Tc,Technetium,[97],solid
+44,Ru,Ruthenium,101.07,solid
+45,Rh,Rhodium,102.91,solid
+46,Pd,Palladium,106.42,solid
+47,Ag,Silver,107.87,solid
+48,Cd,Cadmium,112.41,solid
+49,In,Indium,114.82,solid
+50,Sn,Tin,118.71,solid
+51,Sb,Antimony,121.76,solid
+52,Te,Tellurium,127.6,solid
+53,I,Iodine,126.9,solid
+54,Xe,Xenon,131.29,gas
+55,Cs,Caesium,132.91,solid
+56,Ba,Barium,137.33,solid
+57,La,Lanthanum,138.91,solid
+58,Ce,Cerium,140.12,solid
+59,Pr,Praseodymium,140.91,solid
+60,Nd,Neodymium,144.24,solid
+61,Pm,Promethium,[145],solid
+62,Sm,Samarium,150.36,solid
+63,Eu,Europium,151.96,solid
+64,Gd,Gadolinium,157.25,solid
+65,Tb,Terbium,158.93,solid
+66,Dy,Dysprosium,162.5,solid
+67,Ho,Holmium,164.93,solid
+68,Er,Erbium167.26,solid
+69,Tm,Thulium,168.93,solid
+70,Yb,Ytterbium,173.05,solid
+71,Lu,Lutetium,174.97,solid
+72,Hf,Hafnium,178.49,solid
+73,Ta,Tantalum,180.95,solid
+74,W,Tungsten,183.84,solid
+75,Re,Rhenium,186.21,solid
+76,Os,Osmium,190.23,solid
+77,Ir,Iridium,192.22,solid
+78,Pt,Platinum,195.08,solid
+79,Au,Gold,196.97,solid
+80,Hg,Mercury,200.59,liquid
+81,Tl,Thallium,204.38,solid
+82,Pb,Lead,207.2,solid
+83,Bi,Bismuth,208.98,solid
+84,Po,Polonium,[209],solid
+85,At,Astatine,[210],unknown phase
+86,Rn,Radon,[222],gas
+87,Fr,Francium,[223],unknown phase
+88,Ra,Radium,[226],solid
+89,Ac,Actinium,[227],solid
+90,Th,Thorium,232.04,solid
+91,Pa,Protactinium,231.04,solid
+92,U,Uranium,238.03,solid
+93,Np,Neptunium,[237],solid
+94,Pu,Plutonium,[244],solid
+95,Am,Americium,[243],solid
+96,Cm,Curium,[247],solid
+97,Bk,Berkelium,[247],solid
+98,Cf,Californium,[251],solid
+99,Es,Einsteinium,[252],solid
+100,Fm,Fermium,[257],unknown phase
+101,Md,Mendelevium,[258],unknown phase
+102,No,Nobelium,[259],unknown phase
+103,Lr,Lawrencium,[266],unknown phase
+104,Rf,Rutherfordium,[267],unknown phase
+105,Db,Dubnium,[268],unknown phase
+106,Sg,Seaborgium,[269],unknown phase
+107,Bh,Bohrium,[270],unknown phase
+108,Hs,Hassium,[269],unknown phase
+109,Mt,Meitnerium,[278],unknown phase
+110,Ds,Darmstadtium,[281],unknown phase
+111,Rg,Roentgenium,[282],unknown phase
+112,Cn,Copernicium,[285],unknown phase
+113,Nh,Nihonium,[286],unknown phase
+114,Fl,Flerovium,[289],unknown phase
+115,Mc,Moscovium,[290],unknown phase
+116,Lv,Livermorium,[293],unknown phase
+117,Ts,Tennessine,[294],unknown phase
+118,Og,Oganesson,[294],unknown phase
