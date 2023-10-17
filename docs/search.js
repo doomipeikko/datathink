@@ -1,6 +1,6 @@
 // Load and parse the XML file
 const parser = new DOMParser();
-const xmlString = <elements>
+const xmlString = `<elements>
     <element>
         <symbol>H</symbol>
         <name>Hydrogen</name>
@@ -830,8 +830,9 @@ const xmlString = <elements>
         <atomic_mass>294</atomic_mass>
         <phase>unknown</phase>
     </element>
-</elements>;
-const xmlDoc = parser.parseFromString(xmlString, "text/xml"); // Replace with the path to your XML file
+</elements>´;
+const parser = new DOMParser();
+const xmlDoc = parser.parseFromString(xmlData, "text/xml");
 
 const form = document.getElementById('elementSearchForm');
 const searchInput = document.getElementById('searchInput');
