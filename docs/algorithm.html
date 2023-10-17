@@ -18,21 +18,25 @@
         <main>
             <article>
                 <h1>The Algorithm</h1>
-<p>My algorithm is based on the Periodic Table of elements. I wanted to design an algorithm that asks a user to input an element, compares the input to a predetermined dataset and if a match is found, displays the stats of that element. I also wanted the program to print an error message if a non-existing element was asked for so I used an <b>if-else comparison</b>.</p>
+<p>My algorithm is based on the Periodic Table of elements. I wanted to design an algorithm that asks a user to input an element, compares the input to a predetermined dataset and if a match is found, displays the stats of that element. I also wanted the program to print an error message if a non-existing element was typed so I used an <b>if-else statement</b>.</p>
                 
-<p>For easier use I wanted the app to keep going until the user was satisfied and decided to end the program themselves. For this, I programmed a <b>while loop</b>.</p>
+<p>For easier use I wanted the app to keep going until the user was satisfied and decided to end the program themselves. For this, I used a <b>while loop</b>.</p>
                 
-<p>There's also a quick debugger that transforms the user input to lowercase so JavaScript and Python can understand the user input without immediately throwing an error message if the user types <b>ca</b> instead of <b>Ca</b> (for Calcium), for example.</p>
+<p>There's also a quick debugger that converts the input to the correct format (capitalized first letter) so JavaScript and Python can understand the user input without immediately throwing an error message if the user types <b>ca</b> instead of <b>Ca</b> (for Calcium), for example.</p>
             </article>
-              <center><img src="img/flowchart.png" width="70%"></center>
+              <center>
+                  <img src="img/flowchart.png" width="70%"><br>
+                  <i>A flowchart of the algorithm design</i><br>
+              </center>
             <article>
             <h1>The Pseudocode</h1>   
 <p><pre>
     BEGIN<br>
     User input<br>
+        [convert input to correct format]<br>
     Assess input<br>
         IF "Quit" THEN end program<br>
-        ELSE Validate<br>
+        ELSE Validate input<br>
     Validate input<br>
         IF correct element<br>
             THEN print element<br>
