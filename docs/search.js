@@ -1,6 +1,19 @@
-// Load and parse the XML file
-const parser = new DOMParser();
-const xmlString = `<elements>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Element Search</title>
+</head>
+<body>
+    <form id="elementSearchForm">
+        <label for="searchInput">Enter element symbol or name:</label>
+        <input type="text" id="searchInput" placeholder="Element symbol or name">
+        <button type="submit">Search</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        // Load and parse the XML string
+        const xmlString = `<elements>
     <element>
         <symbol>H</symbol>
         <name>Hydrogen</name>
@@ -830,43 +843,45 @@ const xmlString = `<elements>
         <atomic_mass>294</atomic_mass>
         <phase>unknown</phase>
     </element>
-</elements>´;
-const parser = new DOMParser();
-const xmlDoc = parser.parseFromString(xmlData, "text/xml");
+</elements>`;
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlString, "text/xml");
 
-const form = document.getElementById('elementSearchForm');
-const searchInput = document.getElementById('searchInput');
-const resultDiv = document.getElementById('result');
+        const form = document.getElementById('elementSearchForm');
+        const searchInput = document.getElementById('searchInput');
+        const resultDiv = document.getElementById('result');
 
-form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    const searchValue = searchInput.value.trim().toLowerCase();
-    const elements = xmlDoc.getElementsByTagName('element');
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const searchValue = searchInput.value.trim().toLowerCase();
+            const elements = xmlDoc.getElementsByTagName('element');
 
-    for (let i = 0; i < elements.length; i++) {
-        const symbol = elements[i].getElementsByTagName('symbol')[0].textContent.toLowerCase();
-        const name = elements[i].getElementsByTagName('name')[0].textContent.toLowerCase();
+            for (let i = 0; i < elements.length; i++) {
+                const symbol = elements[i].getElementsByTagName('symbol')[0].textContent.toLowerCase();
+                const name = elements[i].getElementsByTagName('name')[0].textContent.toLowerCase();
 
-        if (symbol === searchValue || name === searchValue) {
-            // Match found, display the entry
-            const atomicNumber = elements[i].getElementsByTagName('atomic_number')[0].textContent;
-            const atomicMass = elements[i].getElementsByTagName('atomic_mass')[0].textContent;
-            const phase = elements[i].getElementsByTagName('phase')[0].textContent;
+                if (symbol === searchValue || name === searchValue) {
+                    // Match found, display the entry
+                    const atomicNumber = elements[i].getElementsByTagName('atomic_number')[0].textContent;
+                    const atomicMass = elements[i].getElementsByTagName('atomic_mass')[0].textContent;
+                    const phase = elements[i].getElementsByTagName('phase')[0].textContent;
 
-            const resultMessage = `
-                Element found:
-                Symbol: ${symbol}
-                Name: ${name}
-                Atomic Number: ${atomicNumber}
-                Atomic Mass: ${atomicMass}
-                Phase: ${phase}
-            `;
-            resultDiv.textContent = resultMessage;
-            return;
-        }
-    }
+                    const resultMessage = `
+                        Element found:
+                        Symbol: ${symbol}
+                        Name: ${name}
+                        Atomic Number: ${atomicNumber}
+                        Atomic Mass: ${atomicMass}
+                        Phase: ${phase}
+                    `;
+                    resultDiv.textContent = resultMessage;
+                    return;
+                }
+            }
 
-    // No match found, display an error message
-    resultDiv.textContent = 'Element not found.';
-});
-
+            // No match found, display an error message
+            resultDiv.textContent = 'Element not found.';
+        });
+    </script>
+</body>
+</html>
