@@ -1,16 +1,98 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Element Search</title>
+    <title>Element Finder</title>
 </head>
 <body>
-    <form id="elementSearchForm">
-        <label for="searchInput">Enter element symbol or name:</label>
-        <input type="text" id="searchInput" placeholder="Element symbol or name">
-        <button type="submit">Search</button>
-    </form>
-    <div id="result"></div>
+    <h1>Element Finder</h1>
 
-    <script src="https://doomipeikko.github.io/datathink/docs/search.js"></script>
+  <form>
+        <label for="searchInput">Enter an element's symbol or name:</label>
+        <input type="text" id="searchInput" placeholder="e.g., Hydrogen or H">
+        <button type="button" id="searchButton">Search</button>
+        <button type="button" id="quitButton">Quit</button>
+    </form>
+
+    <div id="result">
+        <!-- Results will be displayed here -->
+    </div>
+
+    <script>
+   // Element data
+const elementData = {
+  H: {
+    symbol: 'H',
+    name: 'Hydrogen',
+    atomic_number: 1,
+    atomic_mass: 1.008,
+    phase: 'gas',
+  },
+  He: {
+    symbol: 'He',
+    name: 'Helium',
+    atomic_number: 2,
+    atomic_mass: 4.0026,
+    phase: 'gas',
+  },
+  Li: {
+    symbol: 'Li',
+    name: 'Lithium',
+    atomic_number: 3,
+    atomic_mass: 6.94,
+    phase: 'solid',
+  },
+  // ... (other elements)
+};
+
+// Function to get element info
+function getElementInfo(userInput) {
+  userInput = userInput.toLowerCase();
+  const element = elementData[userInput];
+  
+  if (element) {
+    return element;
+  }
+
+  for (const symbol in elementData) {
+    if (elementData[symbol].name.toLowerCase() === userInput) {
+      return elementData[symbol];
+    }
+  }
+
+  for (const symbol in elementData) {
+    if (elementData[symbol].symbol.toLowerCase() === userInput) {
+      return elementData[symbol];
+    }
+  }
+  return null;
+}
+
+// Main function
+function main() {
+  while (true) {
+    const userInput = prompt("Enter an element's symbol or name (or type 'quit' to exit):").trim();
+    
+    if (userInput.toLowerCase() === 'quit') {
+      break;
+    }
+    
+    const element = getElementInfo(userInput);
+    
+    if (element) {
+      console.log(`Name: ${element.name}`);
+      console.log(`Symbol: ${element.symbol}`);
+      console.log(`Atomic Number: ${element.atomic_number}`);
+      console.log(`Atomic Mass: ${element.atomic_mass}`);
+      console.log(`Phase: ${element.phase}`);
+    } else {
+      console.log("Element not found.");
+    }
+  }
+}
+
+// Run the program
+main();
+
+    </script>
 </body>
 </html>
