@@ -28,6 +28,7 @@ p {
   background-color: #ffffff; 
   width: 70%;
   border: 1px solid black;
+  align: center;
 }
 
 pre {
