@@ -4,6 +4,7 @@ body {
   background-color: #7ae5ef; 
   font-family: Helvetica, Georgia, serif; 
   background-image: url("https://doomipeikko.github.io/datathink/docs/img/bg.png");
+  background-repeat: repeat;
 }
 }
 
