@@ -3,6 +3,9 @@
 body {
   background-color: #7ae5ef; 
   font-family: Georgia, serif; 
+  background-image: url("https://doomipeikko.github.io/datathink/docs/img/background.png");
+  background-repeat: repeat;
+}
 }
 
 article {
@@ -12,6 +15,7 @@ article {
 
 h1 {
   font-size: 48px; 
+  font-family: Impact, Georgia, serif; 
 }
 
 h2 {
