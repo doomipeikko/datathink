@@ -10,7 +10,7 @@ const xmlString = `<elements>
   </element>
   <!-- Add more element entries here -->
 </elements>`;
-const xmlDoc = parser.parseFromString(xmlString, "data/elements.xml"); // Replace with the path to your XML file
+const xmlDoc = parser.parseFromString(xmlString, "https://doomipeikko.github.io/datathink/data/elements.xml"); // Replace with the path to your XML file
 
 const form = document.getElementById('elementSearchForm');
 const searchInput = document.getElementById('searchInput');
