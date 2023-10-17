@@ -83,9 +83,9 @@ Atomic number,Element name,Symbol,Atomic weight,Phase
 82,Pb,Lead,207.2,solid
 83,Bi,Bismuth,208.98,solid
 84,Po,Polonium,209,solid
-85,At,Astatine,210,unknown phase
+85,At,Astatine,210,unknown
 86,Rn,Radon,222,gas
-87,Fr,Francium,223,unknown phase
+87,Fr,Francium,223,unknown
 88,Ra,Radium,226,solid
 89,Ac,Actinium,227,solid
 90,Th,Thorium,232.04,solid
@@ -98,22 +98,22 @@ Atomic number,Element name,Symbol,Atomic weight,Phase
 97,Bk,Berkelium,247,solid
 98,Cf,Californium,251,solid
 99,Es,Einsteinium,252,solid
-100,Fm,Fermium,257,unknown phase
-101,Md,Mendelevium,258,unknown phase
-102,No,Nobelium,259,unknown phase
-103,Lr,Lawrencium,266,unknown phase
-104,Rf,Rutherfordium,267,unknown phase
-105,Db,Dubnium,268,unknown phase
-106,Sg,Seaborgium,269,unknown phase
-107,Bh,Bohrium,270,unknown phase
-108,Hs,Hassium,269,unknown phase
-109,Mt,Meitnerium,278,unknown phase
-110,Ds,Darmstadtium,281,unknown phase
-111,Rg,Roentgenium,282,unknown phase
-112,Cn,Copernicium,285,unknown phase
-113,Nh,Nihonium,286,unknown phase
-114,Fl,Flerovium,289,unknown phase
-115,Mc,Moscovium,290,unknown phase
-116,Lv,Livermorium,293,unknown phase
-117,Ts,Tennessine,294,unknown phase
-118,Og,Oganesson,294,unknown phase
+100,Fm,Fermium,257,unknown
+101,Md,Mendelevium,258,unknown
+102,No,Nobelium,259,unknown
+103,Lr,Lawrencium,266,unknown
+104,Rf,Rutherfordium,267,unknown
+105,Db,Dubnium,268,unknown
+106,Sg,Seaborgium,269,unknown
+107,Bh,Bohrium,270,unknown
+108,Hs,Hassium,269,unknown
+109,Mt,Meitnerium,278,unknown
+110,Ds,Darmstadtium,281,unknown
+111,Rg,Roentgenium,282,unknown
+112,Cn,Copernicium,285,unknown
+113,Nh,Nihonium,286,unknown
+114,Fl,Flerovium,289,unknown
+115,Mc,Moscovium,290,unknown
+116,Lv,Livermorium,293,unknown
+117,Ts,Tennessine,294,unknown
+118,Og,Oganesson,294,unknown
