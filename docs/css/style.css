@@ -17,6 +17,7 @@ article {
 h1 {
   font-size: 48px; 
   font-family: Impact, Georgia, serif; 
+  background-color: #ffffff; 
 }
 
 h2 {
@@ -25,6 +26,7 @@ h2 {
 
 p {
   font-size: 20px; 
+  background-color: #ffffff; 
 }
 
 ul {
