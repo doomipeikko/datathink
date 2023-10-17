@@ -30,6 +30,13 @@ p {
   border: 1px solid black;
 }
 
+pre {
+  font-size: 20px; 
+  background-color: #ffffff; 
+  width: 70%;
+  border: 1px solid black;
+}
+
 ul {
   font-size: 20px; 
   list-style-type: square; 
