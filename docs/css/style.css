@@ -24,10 +24,7 @@ h2 {
 }
 
 p {
-  font-size: 20px; 
-}
-
-div {
+  font-size: 20px;
   background-color: #ffffff; 
   width: 70%;
   border: 1px solid black;
@@ -39,7 +36,10 @@ ul {
 }
 
 code {
- font-family: 'Courier New', monospace; 
+ font-family: 'Courier New', monospace;
+  background-color: #ffffff; 
+  width: 70%;
+  border: 1px solid black;
 }
 
 footer{
