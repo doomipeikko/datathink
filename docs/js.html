@@ -1,11 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Element Finder</title>
-</head>
-<body>
-    <h1>Element Finder</h1>
-
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Datalogical Thinking Project: The Pediodic Table of Elements App</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Datalogical Thinking Project: The Pediodic Table of Elements App</h1>
+         </header>
+         <nav>
+            <a href="index.html">Home</a>
+            <a href="algorithm.html">Algorithm</a>
+            <a href="dataset.html">Datasets</a>
+        </nav>
     <form>
         <label for="searchInput">Enter an element's symbol or name:</label>
         <input type="text" id="searchInput" placeholder="e.g., Hydrogen or H">
@@ -14,7 +22,6 @@
     </form>
 
     <div id="result">
-        <!-- Results will be displayed here -->
     </div>
 
     <script>
@@ -96,11 +103,9 @@
 
             quitButton.addEventListener("click", function () {
                 const resultDiv = document.getElementById("result");
-                resultDiv.innerHTML = ""; // Clear the results
+                resultDiv.innerHTML = "";
             });
         }
-
-        // Run the program
         main();
     </script>
 </body>
