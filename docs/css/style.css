@@ -16,7 +16,8 @@ article {
 
 h1 {
   font-size: 48px; 
-  font-family: Impact, Georgia, serif; 
+  font-family: Impact, Georgia, serif;
+  text-align: center;
 }
 
 h2 {
