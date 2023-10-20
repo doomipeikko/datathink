@@ -30,14 +30,16 @@ There's also a quick debugger that converts the input to the correct format (cap
               </center>
             <h1>The Pseudocode</h1>   
 <code><pre>
-    BEGIN<br>
-    User input<br>
-        [convert input to correct format]<br>
-    Assess input<br>
-        IF "Quit" THEN end program<br>
+    BEGIN application<br>
+    Request user input<br>
+    [User input]<br>
+        (Convert input to correct format)<br>
+    Assess user input<br>
+        IF input is "Quit" 
+            THEN end program<br>
         ELSE Validate input<br>
-    Validate input<br>
-        IF correct element<br>
+    Compare input against dataset<br>
+        IF element is found<br>
             THEN print element<br>
         ELSE print error message<br>
     Loop back to BEGIN
