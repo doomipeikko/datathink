@@ -30,12 +30,12 @@ a:active {
   color: #000000;
 }
 article {
-  margin-left: 10vw; 
-  margin-right: 10vw; 
+  margin: 0 auto;
   background-color: #ffffff;
   width: 70%;
   border: 1px solid black;
   padding: 25px 75px 75px 100px;
+  font-size: 20px;
 }
 
 h1 {
@@ -46,17 +46,6 @@ h1 {
 h2 {
   font-size: 36px; 
 }
-
-p {
-  font-size: 20px;
-  background-color: #ffffff; 
-}
-
-.result {
-  width: 70%;
-  border: 1px solid black;
-}
-
 ul {
   font-size: 20px; 
   list-style-type: square; 
