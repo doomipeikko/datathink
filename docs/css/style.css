@@ -10,7 +10,7 @@ nav {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  font: 110% system-ui;
+  font: 120% system-ui;
   text-align: center;
   padding: 2rem 1rem;
   font-family:Impact,Georgia;
