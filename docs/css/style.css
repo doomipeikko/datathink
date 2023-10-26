@@ -17,7 +17,7 @@ nav {
 }
 a:link {
   text-decoration: none;
-  color: #0434b8;
+  color: #000000;
 }
 a:hover {
   font-weight: 900;
@@ -27,7 +27,7 @@ a:visited {
   color: #000000;
 }
 a:active {
-  color: #0461b8;
+  color: #000000;
 }
 article {
   margin-left: 10vw; 
