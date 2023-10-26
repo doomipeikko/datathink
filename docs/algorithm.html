@@ -29,7 +29,7 @@ There's also a quick debugger that converts the input to the correct format (cap
                   <i>A flowchart of the algorithm design</i><br>
               </center>
             <h1>The Pseudocode</h1>   
-<code><pre>
+<div><pre>
     BEGIN application<br>
     Request user input<br>
     [User input]<br>
@@ -39,11 +39,13 @@ There's also a quick debugger that converts the input to the correct format (cap
             THEN end program<br>
         ELSE Validate input<br>
     Compare input against dataset (retrieved from /data/elements.xml)<br>
-        IF element is found<br>
+        IF element name is found<br>
+            THEN print element<br>
+        ELSE IF element symbol is found<br>
             THEN print element<br>
         ELSE print error message<br>
     Loop back to BEGIN
-</pre></code>
+</div></code>
         </main>
         <footer>
             <div id="footer">
