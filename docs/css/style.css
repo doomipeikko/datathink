@@ -15,7 +15,11 @@ nav {
   padding: 2rem 1rem;
   font-family:Impact, Georgia, serif;
 }
-a:link {
+a.text:link {
+  text-decoration: none;
+  color: #007378;
+}
+a.nav:link {
   text-decoration: none;
   color: #000000;
 }
