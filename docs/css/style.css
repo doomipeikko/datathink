@@ -13,7 +13,7 @@ nav {
   font: 120% system-ui;
   text-align: center;
   padding: 2rem 1rem;
-  font-family:Impact,Georgia;
+  font-family:Impact, Georgia, serif;
 }
 a:link {
   text-decoration: none;
