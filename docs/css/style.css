@@ -49,6 +49,11 @@ p {
   background-color: #ffffff; 
 }
 
+.result {
+  width: 70%;
+  border: 1px solid black;
+}
+
 ul {
   font-size: 20px; 
   list-style-type: square; 
