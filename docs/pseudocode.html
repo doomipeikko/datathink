@@ -28,10 +28,12 @@
         IF input is "Quit" 
             THEN end program<br>
         ELSE Validate input<br>
-    Compare input against dataset (retrieved from /data/elements.xml)<br>
+    Compare input against dataset (fetched from data/elements.xml)<br>
+        Read from elements.xml/elements/element/name
         IF element name is found<br>
             THEN print element<br>
-        ELSE IF element symbol is found<br>
+        ELSE Read from elements.xml/elements/element/symbol
+            IF element symbol is found<br>       
             THEN print element<br>
         ELSE print error message<br>
     Loop back to BEGIN
