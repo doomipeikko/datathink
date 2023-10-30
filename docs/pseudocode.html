@@ -23,19 +23,18 @@
     BEGIN application<br>
     Request user input<br>
     [User input]<br>
-        (Convert input to correct format)<br>
+        Convert input to lowercase<br>
     Assess user input<br>
-        IF input is "Quit" 
-            THEN end program<br>
-        ELSE Validate input<br>
-    Compare input against dataset (fetched from data/elements.xml)<br>
+        Compare input against dataset (fetched from data/elements.xml)<br>
         Read from elements.xml/elements/element/name
-        IF element name is found<br>
-            THEN print element<br>
-        ELSE Read from elements.xml/elements/element/symbol
-            IF element symbol is found<br>       
-            THEN print element<br>
-        ELSE print error message<br>
+            Convert to lowercase
+                IF element name is found<br>
+                    THEN print element<br>
+        Read from elements.xml/elements/element/symbol
+            Convert to lowercase
+                IF element symbol is found<br>       
+                    THEN print element<br>
+        ELSE Print error message
     Loop back to BEGIN
 </div></code>
             </article></main>
