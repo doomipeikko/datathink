@@ -26,7 +26,6 @@
         <label for="searchInput">Enter an element's symbol or name:</label>
         <input type="text" id="searchInput" placeholder="e.g., Hydrogen or H">
         <br><br><button type="button" id="searchButton">Search</button>
-        <button type="button" id="quitButton">Quit</button>
     </form>
 <!--Div to display results -->
     <div id="result">
@@ -899,7 +898,7 @@ Og: {
                     <p>Phase: ${element.phase}</p>
                 `;
             } else {
-                resultDiv.innerHTML = "Element not found.";
+                resultDiv.innerHTML = "Element not found. Please try again.";
             }
         }
 
@@ -912,11 +911,6 @@ Og: {
                 const userInput = document.getElementById("searchInput").value;
                 const element = getElementInfo(userInput);
                 displayResults(element);
-            });
-
-            quitButton.addEventListener("click", function () {
-                const resultDiv = document.getElementById("result");
-                resultDiv.innerHTML = "";
             });
         }
         main();
