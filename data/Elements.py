@@ -125,7 +125,7 @@ element_data = {
     'Ts': {'symbol': 'Ts', 'name': 'Tennessine', 'atomic_number': 117, 'atomic_mass': 294, 'phase': 'unknown'},
     'Og': {'symbol': 'Og', 'name': 'Oganesson', 'atomic_number': 118, 'atomic_mass': 294, 'phase': 'unknown'},
 }
-#check user input and transform to lower-case if needed
+# Check user input and transform to lower-case if needed
 def get_element_info(user_input):
     element = element_data.get(user_input)
     if element:
@@ -138,14 +138,12 @@ def get_element_info(user_input):
             return data
     return None
 
-#make a loop for user to keep inputting elements until they want to quit
+# Make a loop for the user to keep inputting elements
 def main():
     while True:
-        user_input = input("Enter an element's symbol or name (or type 'quit' to exit): ").strip()
+        user_input = input("Enter an element's symbol or name: ").strip()
         
-        if user_input.lower() == 'quit':
-            break
-#print the chosen element's stats
+        # Print the chosen element's stats
         element = get_element_info(user_input)
 
         if element:
